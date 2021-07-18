@@ -1,10 +1,12 @@
-a = 10
-b = 2
+firstInput = int(input("Enter First Number:"))
+a = firstInput
+secondInput = int(input("Enter Second Number:"))
+b = secondInput
 a += b
-print(a)
+print(firstInput,"+", secondInput, "=", a)
 a -= b
-print(a)
+print(firstInput,"-", secondInput, "=", a)
 a *= b
-print(a)
+print(firstInput,"*", secondInput, "=", a)
 a /= b
-print(a)
+print(firstInput,"/", secondInput, "=", a)
